@@ -1,1 +1,1 @@
-# FridayAI
+# Friday AI
