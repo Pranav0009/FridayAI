@@ -59,6 +59,9 @@ while True:
     query = take_command().lower()
     print("\nYou: "+ query)
 
+    with open("conv.txt", "a") as f:
+        f.write("You: " + query + "\n")
+
     if 'open' in query:
         app_name = query.replace('open','')
         speak('opening' + app_name)
