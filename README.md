@@ -9,7 +9,7 @@ Make sure you have the following installed before running the code:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/IcrisStudio/Build-Your-Own-Virtual-Assistant-Jarvis
+    git clone https://github.com/Pranav0009/FridayAI
     ```
 
 2. Install the required Python packages:
