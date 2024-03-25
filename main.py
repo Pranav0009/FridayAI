@@ -7,7 +7,7 @@ from datetime import datetime
 from functions.emailsender import *        
 from gpt4_free import GPT
 from PIL import Image
-
+import eel
 
 def speak(text):
     voice = "en-CA-ClaraNeural"
@@ -51,9 +51,8 @@ def take_command():
     return query
 
 sleep_mode = False
-
 speak('Hello sir, I am Friday and How can i help you today?')
-# click_on_chat_button()
+# click_on_chat_button(
 while True:
 
     query = take_command().lower()
